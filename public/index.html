@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBljJnmtAIBqTq52QZJJWFelE1giDRpQaw&callback=initMap" async defer></script>
+
+    
+    <script src="/map.js"></script>
+    
+    <title>Weather</title>
+</head>
+
+<body class="bg-light d-flex flex-column min-vh-100">
+    <div class="container mt-5 flex-grow-1">
+        <form action="/weather" method="get" class="text-center">
+            <div class="form-group">
+                <h1>Welcome to Dayana's weather forecast!</h1>
+                <label for="city" class="h4">Enter the city name:</label>
+                <input type="text" id="city" name="city" required class="form-control">
+            </div>
+            <button type="submit" class="btn btn-secondary text-white">Get Current Weather</button>
+
+        </form>
+
+        
+        <div id="weather-info" class="mt-5">
+            <!-- Content related to weather information will be displayed here -->
+        </div>
+        
+        <div id="map-container" style="height: 300px; margin: 20px;"></div>
+        
+
+    
+    
+
+    
+    <footer class="text-center mt-5 py-3 bg-dark fixed-bottom">
+        <p class="text-white">Dayana Belyalova | SE-2201</p>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
