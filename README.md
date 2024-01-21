@@ -5,10 +5,10 @@ Welcome to Dayana's Weather Forecast App! This application provides current weat
 
 
 ## Installation
-1.```bash
-2.git clone https://github.com/dayanabbb/Assignment4_Dayana.git
-3.cd week4
-4.npm install
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `node app.js` to start the server
+4. Open your browser and go to http://localhost:3000
 
 ## Dependencies
 - Express: Fast, unopinionated, minimalist web framework for Node.js.
