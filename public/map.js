@@ -4,5 +4,5 @@ function initMap(lat, lon) {
         zoom: 10
     });
 
-    // Optionally, add markers or other map features
+    
 }
